@@ -1,0 +1,72 @@
+/* GENERAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 2%;
+    background-color: #00053d;
+    color: white;
+    margin-bottom: 5%;
+}
+
+/* CONTENT */
+form span {
+    display: inline-block;
+    width: 40%;
+    font-size: 1.2rem;
+}
+form input[type=text],
+form input[type=email],
+form select {
+    display: inline-block;
+    width: 50%;
+    font-size: 1.0rem;
+    margin-bottom: 1em;
+    padding: 0.3em;
+    border: 1px solid #aaa;
+    border-radius: 0.2em;
+}
+form input[type=text]:focus,
+form input[type=email]:focus,
+form select:focus {
+    outline: none;
+    border-color: #0E2740;
+}
+form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2em solid #00053d;
+    border-top: none;
+    border-bottom: none;
+    padding: 2%;
+    box-shadow: 0.2em 0.5em 0.8em 0em rgba(0,5,61,0.5);
+}
+
+/* BUTTON */
+form input[type=submit] {
+    display: block;
+    font-size: 0.9rem;
+    padding: 0.8em;
+    margin-top: 1.5em;
+    color: #fff;
+    background-color: #0E2740;
+    border-radius: 0.4em;
+    border: none;
+    cursor: pointer;
+}
+form input[type=submit]:hover {
+    background-color: rgba(14, 39, 64, 0.8);
+}

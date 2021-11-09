@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Get-Requests">
+		<title>Kontaktformular</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Kontaktformular</h1>
+		</header>
+		<main>
+			<form method="get" action="./ue_49_kontaktformular_received.html">
+				<span>Name</span>
+				<input name="name" type="text" value="Max Mustermann">
+				<br>
+				<span>E-Mail-Adresse</span>
+				<input name="mail" type="email" placeholder="max@mustermann.at">
+				<br>
+				<span>Geschlecht</span>
+				<input name="gender" type="radio"><label>männlich</label>
+				<input name="gender" type="radio"><label>weiblich</label>
+				<br><br>
+				<span>Land</span>
+				<select id="country" name="country">
+					<option value="oe">Österreich</option>
+					<option value="de">Deutschland</option>
+					<option value="sz">Schweiz</option>
+					<option value="it">Italien</option>
+				</select>
+				<input name="submit" type="submit">
+			</form>
+		</main>
+	</body>
+</html>
