@@ -1,0 +1,89 @@
+/* CSS File für simples Formular */
+
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+span {
+    padding-right: 5%;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 2%;
+    background-color: #00053d;
+    color: white;
+    margin-bottom: 5%;
+}
+
+/* CONTENT */
+main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2em solid #00053d;
+    border-top: none;
+    border-bottom: none;
+    padding: 2%;
+    margin-bottom: 5%;
+    box-shadow: 0.2em 0.5em 0.8em 0em rgba(0,5,61,0.5);
+}
+form {
+    padding: 2%;
+    padding-bottom: 6%;
+    font-size: larger;
+}
+form input[type=submit] {
+    display: block;
+    font-size: 0.9rem;
+    padding: 0.8em;
+    margin-top: 1.5em;
+    color: #fff;
+    background-color: #0E2740;
+    border-radius: 0.4em;
+    border: none;
+    cursor: pointer;
+}
+form input[type=submit]:hover {
+    background-color: rgba(14, 39, 64, 0.8);
+}
+form input[type=text] {
+    padding: 1.5%;
+    width: 50%;
+}
+/* IMG */
+#uk {
+    background-image: url("./img/uk-flag.png");
+    background-position: 10px 6px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+}
+#italy {
+    background-image: url("./img/italy-flag.png");
+    background-position: 10px 6px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+}
+#france {
+    background-image: url("./img/france-flag.png");
+    background-position: 10px 6px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+}
+#spain {
+    background-image: url("./img/spain-flag.png");
+    background-position: 10px 6px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+}
