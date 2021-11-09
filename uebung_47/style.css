@@ -1,0 +1,105 @@
+/** CSS-Stylesheet
+*	author: HTL Leonding
+**/
+
+/************* general setting *************/
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    margin-bottom: -1.8%;
+    padding: 0;
+    font-family: 'Montserrat', 'Monospace', sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}
+h1 {
+	font-size: 350%;
+	font-family: 'Tangerine';
+	padding: 3% 0 0 0;
+}
+h2 {
+	font-size: 200%;
+    padding: 1% 0;
+    color: white;
+}
+h3 {
+    font-size: 120%;
+    padding: 1vw 0;
+    color: white;
+}
+img {
+    margin: 0 0 2vw 0;
+    width: 75%;
+    height: 75%;
+}
+
+/************* navigation *************/
+nav {
+    margin-bottom: 2%;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 140%;
+    text-align: center;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/************* colors *************/
+#rome {
+    background-color: #009246 
+}
+#milan {
+    background-color: #ce2b37; 
+}
+#venice {
+    background-color: #3757cd;
+}
+.flag {
+    background-image: url("./img/flag.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 100%;
+    padding: 1%;
+}
+
+/************* grid layout *************/
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.grid-container-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.grid-container-3 .span-2-r {
+    grid-column: 2 / span 2;
+}
+.grid-container-3 .span-2-r img {
+    width: 87%;
+    height: 87%;
+    padding-bottom: 2.5%;
+}
+.grid-container-3 .span-3 {
+    grid-column: 1 / span 3;
+}
+.sight {
+    height: 100%;
+}

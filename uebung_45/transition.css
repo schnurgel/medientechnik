@@ -1,0 +1,37 @@
+/* full screen design */
+html, body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* full screen background image */
+.screen-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("./secret_image.jpg");
+    background-size: cover;
+}
+
+
+/* black boxes with hover effect */
+.raetsel {
+    display: flex;
+    flex-wrap: wrap;
+}
+.raetsel > div {
+    background-color: black;
+    margin: 0.15%;
+    opacity: 1;
+    transition: opacity 7s;
+    width: 9.7vw;
+    height: 9.5vh;
+}
+.raetsel > div:hover {
+    opacity: 0;
+    transition: opacity 0s;
+}
